@@ -1,0 +1,243 @@
+.navbar {
+  background-color: black !important;
+  padding: 5px 20px;
+}
+
+.navbar-container {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid green;
+  width: fit-content;
+}
+
+/* ************************* Main Section ************************* */
+#about {
+  position: relative;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* width: min-content; */
+}
+
+#about > div {
+  height: auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#about > div > p {
+  font-size: 20px;
+}
+
+#about > div > h4 {
+  max-width: 900px;
+}
+
+.up-arrow {
+  height: 50px !important;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  background-color: gray;
+  color: white;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.vertical-text {
+  font-size: 20px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  transform: rotate(270deg);
+  position: fixed;
+  right: -55px;
+  top: 50%;
+}
+
+#about-second {
+  padding-left: 225px;
+}
+
+.about-scooter > div {
+  text-align: center;
+}
+
+.about-scooter > div > h4 {
+  font-size: 30px;
+}
+.about-scooter > div > h1 {
+  margin: 5px 0px;
+  font-style: italic;
+  font-size: 60px;
+  color: #ff0066;
+  text-shadow: 2px 2px black;
+}
+
+.scooter-d15 {
+  max-width: 300px !important;
+  position: relative;
+  left: -350px;
+}
+
+.scooter-img {
+  position: absolute;
+  z-index: -10;
+  max-width: 675px !important;
+  right: 0;
+}
+
+/* ************************ Background Theme ************************** */
+
+#background-theme > div {
+  text-align: center;
+  height: 300px;
+}
+
+#background-theme > div > h1 {
+  margin: 10px 0px;
+  font-style: italic;
+  font-size: 60px;
+  color: #ff0066;
+  text-shadow: 2px 2px black;
+}
+
+#background-theme > div > h3 {
+  font-style: normal;
+  color: rgb(61, 52, 52);
+  font-size: 45px;
+  margin: 10px 0;
+}
+
+#background-theme > div > h5 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+/* ************************* Bike Shades ******************************* */
+
+#bike-shades {
+  text-align: center;
+}
+
+#bike-shades > h1 {
+  margin: 10px 0px;
+  font-style: italic;
+  font-size: 60px;
+  color: #ff0066;
+  text-shadow: 2px 2px black;
+}
+
+#bike-shades > p {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+
+/* ************************* Dropdown One ****************************** */
+#dropdown-one {
+  /* height: 100vh; */
+  /* display: flex; */
+  padding: 20px 0;
+  border-bottom: 5px solid #ffff00;
+}
+
+#dropdown-one > div > h1 {
+  font-size: 350px;
+  color: #ffff00;
+  text-shadow: 5px 10px black;
+  font-style: italic;
+}
+
+#dropdown-one > div .headline {
+  font-size: 50px;
+  color: black;
+  font-style: italic;
+}
+
+.dropdown-button-one {
+  width: 100% !important;
+}
+
+.dropdown-option-one {
+  max-width: 100%;
+  height: auto;
+}
+
+/* *********************************** Dropdown Two ************************************** */
+
+#dropdown-two {
+  /* height: 100vh; */
+  /* display: flex; */
+  padding: 20px 0;
+  border-bottom: 5px solid #ff0066;
+}
+
+#dropdown-two > div > h1 {
+  font-size: 350px;
+  color: #ff0066;
+  text-shadow: 5px 10px black;
+  font-style: italic;
+}
+
+#dropdown-two > div .headline {
+  font-size: 50px;
+  color: black;
+  font-style: italic;
+}
+
+.dropdown-button-one {
+  width: 100% !important;
+}
+
+.dropdown-option-one {
+  max-width: 100%;
+  height: auto;
+}
+
+#dropdown-two .btn-group > button {
+  background-color: #ff0066 !important;
+}
+
+/* ************************** Footer ********************************* */
+
+#footer {
+  background-color: #01295f;
+  color: white;
+}
+
+#footer-section-one > div {
+  margin: 0 50px;
+}
+
+#footer-section-one > input {
+  background-color: #01295f;
+  color: white;
+  border: white;
+  border-radius: 2px;
+}
+
+#footer-section-one > button {
+  width: 150px;
+  height: 50px;
+}

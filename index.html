@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BDS Assignment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav
+        class="navbar bg-dark text-white fixed-top navbar-expand-lg bg-body-tertiary"
+        id="navbar_nav"
+        data-bs-theme="dark"
+      >
+        <div class="navbar-container container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./Images/bg-logo.webp" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <img
+                      class="dropdown-item img-fluid"
+                      src="./Images/final-ss.png"
+                      alt="d15"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      class="dropdown-item img-fluid"
+                      src="./Images/A2-Product-one.webp"
+                      alt="d15"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      class="dropdown-item img-fluid"
+                      src="./Images/product-menu-b8.webp"
+                      alt="d15"
+                    />
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Find Your Test Ride</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Test Rides</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active">Blog</a>
+              </li>
+            </ul>
+            <button class="btn btn-outline-light" type="submit">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- About Section -->
+      <section id="about" class="d-flex flex-column container-fluid">
+        <img
+          class="img-fluid"
+          src="./Images/scooter-bannner.jpg"
+          alt="scooter-img"
+        />
+        <div
+          class="d-flex flex-column justify-content-between align-items-center container-fluid"
+        >
+          <p>
+            After intensive research and hours of work,
+            <br />we bring to you an upgrade of a lifetime.
+          </p>
+          <h4>
+            Presenting BGauss D15, a high performance, stylish electric scooter
+            that makes a perfect travel companion for your daily & long distance
+            commute.
+          </h4>
+        </div>
+        <!-- Up Arrow icon -->
+        <i class="bi bi-chevron-up up-arrow">
+          <a href="#navbar_nav"></a>
+        </i>
+        <span class="vertical-text">Enquire Now</span>
+      </section>
+      <section id="about" class="d-flex justify-content-around about-scooter">
+        <div>
+          <h4>We’re the most comfortable scooter in the market</h4>
+          <h1>Don't believe us ?</h1>
+        </div>
+        <section
+          id="about-second"
+          class="d-flex justify-content-between align-items-end"
+        >
+          <div class="d-flex flex-column justify-content-around scooter-d15">
+            <img
+              class="img-fluid"
+              src="./Images/big-scooter-wheels.jpg"
+              alt="scooter-wheels"
+            />
+            <h3>
+              With extra comfort, extra maneuverability, ample leg space and
+              ergonomically designed comfortable seating for long distance
+              riding, you won’t ever want to get off the new BG D15.
+            </h3>
+          </div>
+
+          <img
+            class="img-fluid scooter-img"
+            src="./Images/scooter-img.png"
+            alt="scooter-img"
+          />
+        </section>
+      </section>
+      <!-- Background theme -->
+      <section
+        id="background-theme"
+        class="container-fluid d-flex flex-column justify-content-around align-items-center"
+      >
+        <img
+          class="img-fluid"
+          src="./Images/background-theme.jpg"
+          alt="background-theme"
+        />
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h1>Proudly Made in India</h1>
+          <h3>BG D15 is - FULLY MADE IN INDIA!</h3>
+          <h5>
+            From its design, engineering to parts every bit is made in India.<br />
+            We are 100% Localised, ARAI certified and are available with a Fame2
+            Subsidy.
+          </h5>
+        </div>
+      </section>
+      <!-- Different Bikes -->
+      <section
+        id="bike-shades"
+        class="d-flex flex-column justify-content-around align-items-center"
+      >
+        <h1>
+          You won’t just like it,<br />
+          you will love it!
+        </h1>
+        <p>
+          India is born out of diversity and variety...<br />
+          So are we! With a range of 5 colours, you can exercise freedom of<br />
+          choice and the right to have FUN!
+        </p>
+        <img
+          class="img-fluid"
+          src="./Images/bike-shades.jpg"
+          alt="color-bikes"
+        />
+        <h1>
+          How are we different<br />
+          from the rest, you ask?
+        </h1>
+      </section>
+      <!-- Dropdowns -->
+      <section
+        id="dropdown-one"
+        class="d-flex flex-column justify-content-around align-items-center"
+      >
+        <div class="d-flex justify-content-around align-items-center">
+          <h1>1</h1>
+          <h2 class="headline">
+            STRENGTH AND <br />
+            DURABILITY
+          </h2>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-warning btn-secondary dropdown-toggle dropdown-button-one"
+            data-bs-toggle="dropdown"
+            data-bs-display="static"
+            aria-expanded="false"
+          >
+            Stylish Full Metal Body
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li>
+              <img class="img-fluid" src="./Images/dropdown-one-a.jpg" alt="" />
+            </li>
+            <li>
+              <p>
+                Get ready to ride through the city with the ultimate fully metal
+                body superhero, your BG D15.
+              </p>
+              <br />
+              <p>
+                With its strong and sturdy exterior you can take on every
+                challenge in style. So save the earth, the trees, plants and
+                even your finances while you’re at it with the new BG D15.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-warning btn-secondary dropdown-toggle dropdown-button-one"
+            data-bs-toggle="dropdown"
+            data-bs-display="static"
+            aria-expanded="false"
+          >
+            Robust Frame
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <div>
+              <p>
+                Take a round along the block or ride a mile further with your
+                favourite travel buddy! Our new BG D15 is embodied with a High
+                Strength Tubular Steel Frame built for 1,00,000+ kms with a 150
+                kg payload.
+              </p>
+              <img
+                class="img-fluid"
+                src="./Images/dropdown--one-b.jpg"
+                alt=""
+              />
+            </div>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-warning btn-secondary dropdown-toggle dropdown-button-one"
+            data-bs-toggle="dropdown"
+            data-bs-display="static"
+            aria-expanded="false"
+          >
+            All Weather Proof
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li>
+              <img class="img-fluid" src="./Images/dropdown-one-c.jpg" alt="" />
+            </li>
+            <li>
+              <p>
+                BG D15 can ride past any weather with its ‘All Weather Proof’<br />
+                design. Moreover, the vehicle has undergone 500 hours of Salt<br />
+                Spray test to assure you a rust-free ride.
+              </p>
+              <br />
+              <p>
+                Don’t believe us? Our 5 Step CED Coating Process has made
+                this<br />
+                ‘no more rust’ dream come true, not just outside but on the<br />
+                inside too, so that your e-scooter can have a longer life.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-warning btn-secondary dropdown-toggle dropdown-button-one"
+            data-bs-toggle="dropdown"
+            data-bs-display="static"
+            aria-expanded="false"
+          >
+            Extraordinary vehicle
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li>
+              <p>
+                Get only the best with BG D15. Our vehicle has a noteworthy<br />
+                expected life span of 1,00,000 kms or 10 yrs. Told you we’re<br />
+                here for the long ride.
+              </p>
+            </li>
+            <li>
+              <img
+                class="img-fluid"
+                src="./Images/dropdown--one-d.jpg"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-warning btn-secondary dropdown-toggle dropdown-button-one"
+            data-bs-toggle="dropdown"
+            data-bs-display="static"
+            aria-expanded="false"
+          >
+            IP67 Waterproof Bike
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li>
+              <img
+                class="img-fluid"
+                src="./Images/dropdown--one-e.jpg"
+                alt=""
+              />
+            </li>
+            <li>
+              <p>
+                Here’s proof that we’re waterproof. Ride fearlessly with
+                D15’s<br />
+                IP67 rated battery.
+              </p>
+              <p>
+                The vehicle also comes with a 250mm high water wading limit
+                to<br />
+                ensure safe riding in water clogged roads, truly making it an<br />
+                all weather proof travel buddy.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Dropdown No. 2 -->
+      <section
+        id="dropdown-two"
+        class="d-flex flex-column justify-content-around align-items-center"
+      >
+        <div class="d-flex justify-content-around align-items-center">
+          <h1>2</h1>
+          <h2 class="headline">
+            COMFORT AND <br />
+            CONVENIENCE
+          </h2>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-secondary dropdown-toggle dropdown-button-two"
+            data-bs-toggle="dropdown"
+            data-bs-display="static"
+            aria-expanded="false"
+          >
+            406.4mm (16inch) Big Alloy Wheels
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li>
+              <p>
+                Get better grip and performance with flawless 406.4mm
+                (16inch)<br />
+                big alloy wheels, the biggest in its segment, specially
+                designed<br />
+                to give you a fun, smooth, and safe riding experience!
+              </p>
+              <br />
+              <p>
+                And to top it, our Tubeless Tyres will provide you with
+                better<br />
+                stability at all times..
+              </p>
+            </li>
+            <li>
+              <img class="img-fluid" src="./Images/dropdown-two-a.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-secondary dropdown-toggle dropdown-button-two"
+            data-bs-toggle="dropdown"
+            data-bs-display="static"
+            aria-expanded="false"
+          >
+            Industry leading round clearance
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <div>
+              <img class="img-fluid" src="./Images/dropdown-two-b.jpg" alt="" />
+              <li>
+                <p>
+                  The new BG D15 has an extraordinary ground clearance of 175
+                  mm<br />
+                  and a saddle height of 765 mm that is suitable to the
+                  average<br />
+                  height of an Indian consumer.
+                </p>
+                <p>
+                  So you won’t have to worry about riding through rough
+                  terrains<br />
+                  with your travel buddy ever again.
+                </p>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-secondary dropdown-toggle dropdown-button-two"
+            data-bs-toggle="dropdown"
+            data-bs-display="static"
+            aria-expanded="false"
+          >
+            Big and Spacious Seat
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li>
+              <p>
+                Experience unmatchable comfort with D15’s big and spacious 77
+                cm<br />
+                seat, providing ample amount of space for 2 people. So now
+                you<br />
+                can make plans for two and experience a relaxed ride with<br />
+                BGauss!
+              </p>
+            </li>
+            <li>
+              <img class="img-fluid" src="./Images/dropdown-two-c.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-secondary dropdown-toggle dropdown-button-two"
+            data-bs-toggle="dropdown"
+            data-bs-display="static"
+            aria-expanded="false"
+          >
+            Quick Charge
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li>
+              <p>
+                Last minute changes in your destination? We got you covered!<br />
+                With a quick charge in less than four hours, charge your<br />
+                removable battery where-ever you want on a regular 6A socket.
+              </p>
+            </li>
+            <li>
+              <img class="img-fluid" src="./Images/dropdown-two-d.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-secondary dropdown-toggle dropdown-button-two"
+            data-bs-toggle="dropdown"
+            data-bs-display="static"
+            aria-expanded="false"
+          >
+            Hydraulic Spring Rear Shock Absorbers
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li>
+              <img class="img-fluid" src="./Images/dropdown-two-f.jpg" alt="" />
+            </li>
+            <li>
+              <p>
+                So, why should you get used to taking the road less travelled?
+              </p>
+              <p>
+                With 3 step adjustable double hydraulic spring shock absorbers
+                &<br />
+                Suspensions for customised comfort and a design engineered
+                for<br />
+                great performance in poor road conditions, you’re sure to
+                stand<br />
+                a class part on the most exciting ride you’ll ever take.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-secondary dropdown-toggle dropdown-button-two"
+            data-bs-toggle="dropdown"
+            data-bs-display="static"
+            aria-expanded="false"
+          >
+            115 (*)
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li>
+              <p>
+                It’s time to say goodbye to ‘Range Anxiety’. With over 115
+                (*)<br />
+                kms in a single charge now you can enjoy a ride that will
+                take<br />
+                you a long way!
+              </p>
+              <p>
+                Choose between two riding modes without compromising on the<br />
+                range of 115KMs.
+              </p>
+              <p>(*) - ARAI Range</p>
+            </li>
+            <li>
+              <img class="img-fluid" src="./Images/dropdown-two-e.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer
+        id="footer"
+        class="d-flex flex-column justify-content-around align-items-center"
+      >
+        <section
+          id="footer-section-one"
+          class="d-flex justify-content-evenly align-items-start"
+        >
+          <div
+            class="d-flex flex-column justify-content-between align-items-start"
+          >
+            <h4>BGauss</h4>
+            <span>Our Story</span>
+            <span>Calculate Your Savings</span>
+            <span>Contact Us</span>
+            <span>Blog</span>
+            <span>Book Now</span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-around align-items-start"
+          >
+            <h4>Community</h4>
+            <span>Blog</span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-around align-items-start"
+          >
+            <h4>Legal</h4>
+            <span>Terms</span>
+            <span>Privacy Policy</span>
+            <span>Refund Policy</span>
+            <span>Disclaimer</span>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-around align-items-start"
+          >
+            <h4>Subscribe To Newsletter</h4>
+            <input class="email" type="email" placeholder="Email Id" />
+            <button>Subscribe</button>
+          </div>
+        </section>
+        <section></section>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
